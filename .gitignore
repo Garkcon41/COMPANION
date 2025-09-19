@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/
+config.yaml
+.env
+.DS_Store
+.vscode/
+.idea/
