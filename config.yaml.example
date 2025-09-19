@@ -1,0 +1,24 @@
+data_root: ./data
+
+cameras:
+  backend: mock
+  mock_files:
+    front: dev_assets/front.jpg
+    left:  dev_assets/left.jpg
+    right: dev_assets/right.jpg
+
+gnss:
+  backend: mock
+  mock_fix:
+    lat: 41.8786
+    lon: -87.6256
+    alt_m: 184.2
+    hdop: 0.9
+    num_sats: 12
+    fix_type: 3
+    delay_ms: 300
+
+uploader:
+  backend: local
+  local:
+    dest_dir: ./data/uploaded
